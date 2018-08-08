@@ -5,6 +5,8 @@ public class SysUser {
 	private Integer id;
 	private String username;
 	private String password;
+	private Integer age;
+	
 	public Integer getId() {
 		return id;
 	}
@@ -23,5 +25,12 @@ public class SysUser {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	public Integer getAge() {
+		return age;
+	}
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+	
 
 }
