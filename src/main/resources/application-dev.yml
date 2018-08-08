@@ -1,0 +1,18 @@
+#开发环境下的配置
+server:
+  port: 8080
+  servlet.context-path: /springBoot
+zm: A
+
+spring:
+  #mysql数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/testspringboot
+    username: root
+    password: 
+    driver-class-name: com.mysql.jdbc.Driver
+  #jpa配置
+  jpa:
+    hibernate:
+      ddl-auto: update      #create 如果之前有这个表，会先删该表，再创建空表
+    show-sql: true          #可以在控制台显示sql语句

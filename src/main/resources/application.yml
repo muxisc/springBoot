@@ -1,0 +1,9 @@
+#server:
+  #port: 8081
+  #servlet.context-path: /springBoot
+#zm: A
+
+spring:
+  profiles: 
+    active: dev   #有效的配置文件是dev
+   
